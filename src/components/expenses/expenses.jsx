@@ -12,7 +12,7 @@ const Expenses = (props)=>{
        }
 
   return (
-        <Card className = 'expenses'>
+        <Card >
       {props.items.map(({id, ...otherExpensedata})=> (
         <ExpenseList  key= {id} {...otherExpensedata}/>
       ))}
