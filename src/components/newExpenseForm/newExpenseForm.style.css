@@ -1,0 +1,48 @@
+.new-expense-controles{
+    display: flex;
+    justify-content: flex-start;
+    /* gap: 1rem; */
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+.new-expense-controle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 0 calc(50% - 1rem);
+}
+.new-expense-controle input{
+width:  19rem;
+max-width: 100%;
+border: 1px solid #ccc;
+border-radius: 6px;
+padding: 0.67rem;
+
+}
+
+.submit{
+text-align: right;    
+padding: 0 1rem;
+display: flex;
+justify-content: flex-end;
+gap:  1rem;
+}
+.sbt{
+    background-color: #40005d;
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    border: none;
+}
+.cancle{
+    color:  #40005d;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.cancle:hover,.sbt:hover{
+    cursor: pointer;
+
+}

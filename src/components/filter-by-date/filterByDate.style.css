@@ -1,0 +1,14 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.89rem;
+}
+.filter label{
+    color: white;
+}
+.filter select{
+    width: 10%;
+    padding: 0.56rem 0.67rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
